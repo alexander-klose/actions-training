@@ -22,6 +22,6 @@ jobs:
 
       - name: List files
         run: |
-          echo "content of ${{ gihub.repository }}"
+          echo "content of ${{ github.repository }}"
           tree
           
