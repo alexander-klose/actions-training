@@ -23,7 +23,7 @@ jobs:
           echo "Triggered by: ${{ github.event_name }}"
           echo "with ref ${{ github.ref }}"
   
-      - uses: actions/checkout@3.3.0
+      - uses: actions/checkout@v4.1.1
 
       - name: List files
         run: |
